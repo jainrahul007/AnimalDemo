@@ -96,6 +96,16 @@ D. Model animals that change their behaviour over time
     b. A butterfly does not make a sound
     ButterFly class does not implement Singable interface so it cannot make sound or sing.
 
+2. Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+    a. A caterpillar cannot fly
+    Created a Caterpillar class which implements Animal interface and not Flyable interface to denote it cannot fly.
+    b. A caterpillar can walk (crawl)
+    Have CaterPillar class implements Walkable interface and override walk method
+    Have provide a metaMorphize method which when invoke on caterpilar object would return ButterFly Object.
+    Created a CaterPillarTest unit test to test both walk and metaMorphize method.
+
+
+
 
 
 
