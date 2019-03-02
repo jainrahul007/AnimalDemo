@@ -1,4 +1,4 @@
-# AnimalDemo
+```# AnimalDemo
 1. Can you implement the sing() method for the bird?
     Added sing method in Bird class and implemented on the same line as other given method.
     
@@ -159,9 +159,12 @@ If you still have time left, please consider the following:
 
 
 
+2. Can you design a RESTful API for querying these animals?
+
 
 
 
        
     
     
+```
