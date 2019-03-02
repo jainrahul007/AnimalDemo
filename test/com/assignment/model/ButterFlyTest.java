@@ -5,16 +5,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DolphinTest {
-    private Dolphin dolphin;
+class ButterFlyTest {
+
+    private ButterFly butterFly;
 
     @BeforeEach
     void setUp() {
-        dolphin = new Dolphin();
+    butterFly = new ButterFly();
     }
 
     @Test
-    void swim() {
-        assertEquals("I am dolphin swimming", dolphin.swim());
+    void fly() {
+        assertEquals("I am butterfly flying", butterFly.fly());
     }
 }

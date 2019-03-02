@@ -12,7 +12,7 @@ public class Duck implements Singable, Swimable{
 
     @Override
     public String swim() {
-        String swimming = "I can swim";
+        String swimming = "I am duck swimming";
         System.out.println(swimming);
         return swimming;
     }

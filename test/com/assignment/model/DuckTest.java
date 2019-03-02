@@ -21,6 +21,6 @@ class DuckTest {
 
     @Test
     void swim() {
-        assertEquals("I can swim", duck.swim());
+        assertEquals("I am duck swimming", duck.swim());
     }
 }

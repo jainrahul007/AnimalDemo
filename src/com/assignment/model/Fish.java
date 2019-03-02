@@ -23,7 +23,7 @@ public class Fish implements Animal,Swimable {
 
     @Override
     public String swim() {
-        String swimming = "I can swim";
+        String swimming = "I am fish swimming";
         System.out.println(swimming);
         return swimming;
     }

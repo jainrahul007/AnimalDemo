@@ -15,6 +15,6 @@ class FishTest {
 
     @Test
     void swim() {
-        assertEquals("I can swim", fish.swim());
+        assertEquals("I am fish swimming", fish.swim());
     }
 }

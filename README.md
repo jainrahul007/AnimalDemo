@@ -88,6 +88,13 @@
     b. How do you avoid duplicating code or introducing unneeded overhead?
 
 
+D. Model animals that change their behaviour over time
+
+1. Can you model a butterfly?
+    a. A butterfly can fly
+    Created a ButterFly class which implements Flyable interface and override fly method.
+    b. A butterfly does not make a sound
+    ButterFly class does not implement Singable interface so it cannot make sound or sing.
 
 
 
