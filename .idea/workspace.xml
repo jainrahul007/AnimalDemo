@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d70663b-799e-4be3-87d0-fc152b96c6d7" name="Default" comment="Added new classes as per 9th direction">
+    <list default="true" id="5d70663b-799e-4be3-87d0-fc152b96c6d7" name="Default" comment="as per 10th direction">
+      <change afterPath="$PROJECT_DIR$/src/com/assignment/model/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/LangugeTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/assignment/model/com/assignment/demo/LangugeTranslatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnimalDemo/com/assignment/model/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnimalDemo/com/assignment/model/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnimalDemo/com/assignment/model/com/assignment/demo/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnimalDemo/com/assignment/model/com/assignment/demo/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/AnimalDemo/com/assignment/model/BirdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/AnimalDemo/com/assignment/model/BirdTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/ClownFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/ClownFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Parrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Rooster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Rooster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Shark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/assignment/model/BirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/assignment/model/BirdTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,15 +27,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Walkable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -96,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="-272">
               <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,26 +88,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="133" column="75" selection-start-line="133" selection-start-column="75" selection-end-line="133" selection-end-column="75" />
+            <state relative-caret-position="330">
+              <caret line="157" column="83" selection-start-line="157" selection-start-column="83" selection-end-line="157" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/ButterFly.java">
+        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Language.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Duck.java">
+        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/LangugeTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/assignment/model/com/assignment/demo/LangugeTranslatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,6 +184,9 @@
         <option value="$PROJECT_DIR$/src/com/assignment/model/Bird.java" />
         <option value="$PROJECT_DIR$/test/com/assignment/model/BirdTest.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/model/Language.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/LangugeTranslator.java" />
+        <option value="$PROJECT_DIR$/test/com/assignment/model/com/assignment/demo/LangugeTranslatorTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -249,6 +245,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AnimalDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnimalDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,7 +263,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551542962033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551546319139" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -271,6 +273,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.assignment.model.com.assignment.demo" />
       <recent name="com.assignment.model" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -292,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BirdTest and 9 more">
+  <component name="RunManager" selected="JUnit.LangugeTranslatorTest">
     <configuration name="All in AnimalDemo" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalDemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -357,16 +360,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DolphinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LangugeTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.assignment.model.*" />
+          <option name="PATTERN" value="com.assignment.model.com.assignment.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.assignment.model" />
-      <option name="MAIN_CLASS_NAME" value="com.assignment.model.DolphinTest" />
+      <option name="PACKAGE_NAME" value="com.assignment.model.com.assignment.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.assignment.model.com.assignment.demo.LangugeTranslatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -390,19 +393,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DolphinTest" />
       <item itemvalue="JUnit.BirdTest and 9 more" />
       <item itemvalue="JUnit.CaterPillarTest" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Android JUnit.All in AnimalDemo" />
+      <item itemvalue="JUnit.LangugeTranslatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LangugeTranslatorTest" />
         <item itemvalue="JUnit.BirdTest and 9 more" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Android JUnit.All in AnimalDemo" />
         <item itemvalue="JUnit.CaterPillarTest" />
-        <item itemvalue="JUnit.DolphinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -480,16 +483,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551537023722</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="as per 10th direction">
+      <created>1551542997232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551542997232</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SharkTest - 2019.03.02 at 19h 19m 31s.xml">
-      <configuration name="SharkTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DolphinTest - 2019.03.02 at 19h 32m 23s.xml">
-      <configuration name="DolphinTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DolphinTest - 2019.03.02 at 19h 45m 37s.xml">
       <configuration name="DolphinTest" configurationId="JUnit" />
     </history-entry>
@@ -514,9 +518,16 @@
     <history-entry file="BirdTest_and_9_more - 2019.03.02 at 21h 39m 24s.xml">
       <configuration name="BirdTest and 9 more" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LangugeTranslatorTest - 2019.03.02 at 22h 31m 46s.xml">
+      <configuration name="LangugeTranslatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LangugeTranslatorTest - 2019.03.02 at 22h 33m 37s.xml">
+      <configuration name="LangugeTranslatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="26" width="1410" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27192983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -534,10 +545,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5116959" side_tool="true" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5116959" side_tool="true" weight="0.32871014" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4883041" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49561402" weight="0.32871014" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32967836" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -548,6 +559,37 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" weight="0.32967836" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27192983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4868421" weight="0.32871014" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499269" weight="0.3994452" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5116959" side_tool="true" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4883041" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49561402" weight="0.32871014" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.32967836" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32967836" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -585,7 +627,8 @@
     <MESSAGE value="Added new classes as per 7th direction" />
     <MESSAGE value="Added new classes as per 8th direction" />
     <MESSAGE value="Added new classes as per 9th direction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new classes as per 9th direction" />
+    <MESSAGE value="as per 10th direction" />
+    <option name="LAST_COMMIT_MESSAGE" value="as per 10th direction" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/com/assignment/model/AnimalTest.java" />
@@ -893,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="-272">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -901,10 +944,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/model/com/assignment/demo/LangugeTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/assignment/model/com/assignment/demo/LangugeTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="133" column="75" selection-start-line="133" selection-start-column="75" selection-end-line="133" selection-end-column="75" />
+        <state relative-caret-position="330">
+          <caret line="157" column="83" selection-start-line="157" selection-start-column="83" selection-end-line="157" selection-end-column="83" />
         </state>
       </provider>
     </entry>

@@ -134,6 +134,30 @@ Note: The above instantiation may be different if you chose to set up your objec
     implementing the interfaces like Flyable, Singable, Swimable, Walkable.
 
 
+BONUS
+If you still have time left, please consider the following:
+    1. Can you add a second language (if you know a language other than English) Use the rooster as a PoC for demonstrating this.
+        For example, this is how the Rooster sounds differently depending on language.
+        Please add the rooster sound in your native tongue.
+        • Danish: kykyliky
+        • Dutch: kukeleku
+        • Finnish: kukko kiekuu
+        • French: cocorico
+        • German: kikeriki
+        • Greek: kikiriki
+        • Hebrew: coo-koo-ri-koo
+        • Hungarian: kukuriku
+        • Italian: chicchirichi
+        • Japanese: ko-ke-kok-ko-o
+        • Portuguese: cucurucu
+        • Russian: kukareku
+        • Swedish: kuckeliku
+        • Turkish: kuk-kurri-kuuu
+        • Urdu: kuklooku
+
+   Added a LanguageTranslator class which translate based on the language provided.
+
+
 
 
 
