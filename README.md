@@ -41,6 +41,23 @@
     have an instance variable of type Singable and invoking sing method on it.
 
 
+4. Can you model a parrot? We are specifically interested in three parrots, one that lived in a house with dogs, one in a house
+ with cats, the other lived on a farm next to the rooster.
+    a. A parrot living with dogs says: “Woof, woof”
+    Added a Dog class which implements Singable Interface. Also added a Parrot class which implements Singable interface
+    and also have singable type as an instance variable. Inoking sing method on parrot with Dog object would make that sound.
+
+    b. A parrot living with cats says: “Meow”
+    Same as Above
+    c. A parrot living near the rooster says: “Cock-a-doodle-doo”
+    Same as Above
+    d. How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings
+     frequently?
+     ParrotTest validate this scenario with Duck and Phone as Singable Type.
+
+
+
+
 
        
     

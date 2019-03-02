@@ -1,11 +1,6 @@
 package com.assignment.model;
 
-public abstract class Animal implements Walkable{
+//Animal is an marker interface which would be used for only passing around Animal Objects
+public interface Animal {
 
-    @Override
-    public String walk() {
-        String walking = "I am walking";
-        System.out.println(walking);
-        return walking;
-    }
 }

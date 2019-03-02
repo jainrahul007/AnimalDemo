@@ -1,6 +1,6 @@
 package com.assignment.model;
 
-public class Bird extends Animal implements Flyable, Singable{
+public class Bird implements Animal, Walkable, Flyable, Singable{
 
     @Override
     public String fly()
@@ -16,6 +16,13 @@ public class Bird extends Animal implements Flyable, Singable{
         String singing = "I am singing";
         System.out.println(singing);
         return singing;
+    }
+
+    @Override
+    public String walk() {
+        String walking = "I am walking";
+        System.out.println(walking);
+        return walking;
     }
 
 }
