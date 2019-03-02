@@ -1,5 +1,11 @@
 package com.assignment.model;
 
-public interface Animal {
-    String walk();
+public abstract class Animal implements Walkable{
+
+    @Override
+    public String walk() {
+        String walking = "I am walking";
+        System.out.println(walking);
+        return walking;
+    }
 }

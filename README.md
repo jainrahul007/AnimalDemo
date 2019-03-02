@@ -14,6 +14,7 @@
 
 2. Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you implement them to make their own special sound?
     a. A duck says: “Quack, quack”
+
     b. A duck can swim
     c. A chicken says: “Cluck, cluck”
     d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
@@ -25,6 +26,20 @@
     Chicken class implement Singable interface to specify it can only sing and not fly. ChickenTest asserts this behaviour.
     Bird class implements Singable, Flyable and Animal interfaces to specify it can continue to sing, fly and walk. BirdTest
     this behavior.
+
+
+3. Now how would you model a rooster?
+    a. A rooster says: “Cock-a-doodle-doo”
+    Added a Rooster class which implements Singable interface.
+
+    b. How is the rooster related to the chicken?
+    Rooster and Chicken both implements Singable interfaces.
+
+    c. Can you think of other ways to model a rooster without using inheritance?
+    Rooster is implementing a Singable interfaces and not inheriting or extending any class. Since the given scenario is asking
+    for rooster to sing with specific sound, the overridden method takes care of that. Other way can be composition where we can
+    have an instance variable of type Singable and invoking sing method on it.
+
 
 
        
