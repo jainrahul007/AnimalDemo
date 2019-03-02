@@ -1,4 +1,4 @@
-package com.assignment.model.com.assignment.demo;
+package com.assignment.demo;
 
 import com.assignment.model.Language;
 
