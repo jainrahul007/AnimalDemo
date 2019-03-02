@@ -3,16 +3,22 @@ package com.assignment.model;
 public class Bird implements Animal{
     public String fly()
     {
-        return "I am flying";
+        String flying = "I am flying";
+        System.out.println(flying);
+        return flying;
     }
 
     public String sing()
     {
-        return "I am singing";
+        String singing = "I am singing";
+        System.out.println(singing);
+        return singing;
     }
 
     @Override
     public String walk() {
-        return "I am walking";
+        String walking = "I am walking";
+        System.out.println(walking);
+        return walking;
     }
 }

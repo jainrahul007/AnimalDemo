@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class BirdTest {
 
     private Bird bird;
+
     @BeforeEach
     void setUp() {
         bird = new Bird();

@@ -1,5 +1,5 @@
 package com.assignment.model;
 
 public interface Animal {
-     String walk();
+    String walk();
 }
