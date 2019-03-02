@@ -81,6 +81,15 @@
     Provided a eatFish method which take a Fish parameter.Tested in SharkTest
 
 
+ 3. Dolphins are not exactly fish, yet, they are good swimmers
+    a. Can you model a dolphin that swims without inheriting from a fish class?
+     Created Class Dolphin which implements Swimable interface and override swim method.
+
+    b. How do you avoid duplicating code or introducing unneeded overhead?
+
+
+
+
 
 
 

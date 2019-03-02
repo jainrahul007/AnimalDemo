@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d70663b-799e-4be3-87d0-fc152b96c6d7" name="Default" comment="Added new classes as per 6th direction">
-      <change afterPath="$PROJECT_DIR$/src/com/assignment/model/ClownFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assignment/model/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/assignment/model/ClownFishTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/assignment/model/SharkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/assignment/model/Dolphin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/assignment/model/DolphinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/model/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/model/Fish.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="e#168#169#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
@@ -35,10 +31,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Singable.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="-130" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Dolphin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/assignment/model/DolphinTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,24 +143,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Flyable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
@@ -195,6 +195,8 @@
         <option value="$PROJECT_DIR$/test/com/assignment/model/ClownFishTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/assignment/model/Fish.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/model/Dolphin.java" />
+        <option value="$PROJECT_DIR$/test/com/assignment/model/DolphinTest.java" />
       </list>
     </option>
   </component>
@@ -264,7 +266,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551534995989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551535354551" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -292,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SharkTest">
+  <component name="RunManager" selected="JUnit.DolphinTest">
     <configuration name="All in AnimalDemo" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalDemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -323,6 +325,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DolphinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.assignment.model" />
+      <option name="MAIN_CLASS_NAME" value="com.assignment.model.DolphinTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FishTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalDemo" />
       <extension name="coverage">
@@ -334,23 +352,6 @@
       <option name="PACKAGE_NAME" value="com.assignment.model" />
       <option name="MAIN_CLASS_NAME" value="com.assignment.model.FishTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParrotTest.sing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnimalDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assignment.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assignment.model" />
-      <option name="MAIN_CLASS_NAME" value="com.assignment.model.ParrotTest" />
-      <option name="METHOD_NAME" value="sing" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,19 +390,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ParrotTest.sing" />
       <item itemvalue="Android JUnit.All in AnimalDemo" />
       <item itemvalue="JUnit.FishTest" />
       <item itemvalue="JUnit.SharkTest" />
       <item itemvalue="JUnit.ClownFishTest" />
+      <item itemvalue="JUnit.DolphinTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DolphinTest" />
         <item itemvalue="JUnit.SharkTest" />
         <item itemvalue="JUnit.ClownFishTest" />
         <item itemvalue="JUnit.FishTest" />
         <item itemvalue="Android JUnit.All in AnimalDemo" />
-        <item itemvalue="JUnit.ParrotTest.sing" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551530599951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added new classes as per 6th direction">
+      <created>1551535021834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551535021834</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -506,9 +514,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50292397" side_tool="true" visible="true" weight="0.32871014" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49342105" weight="0.32871014" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49707603" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5073099" side_tool="true" visible="true" weight="0.32871014" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49269006" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49707603" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -816,15 +824,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#168#169#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/model/Dolphin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/assignment/model/DolphinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
