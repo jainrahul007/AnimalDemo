@@ -55,6 +55,32 @@
      frequently?
      ParrotTest validate this scenario with Duck and Phone as Singable Type.
 
+ B. Model fish as well as other swimming animals
+
+1. In addition to the birds, can you model a fish?
+    a. Fishes don’t sing
+    b. Fishes don’t walk
+    c. Fishes can swim
+
+    Added a Fish Class which would implement Animal, Swimable interfaces to denote it is Swimming Animal.
+    Added a FishTest unit test to validate that it can swim.
+
+2. Can you specialize the fish as a Shark and as a Clownfish?
+    Created Shark and ClownFish class which extends Fish with size and color properties
+
+    a. Sharks are large and grey
+    Provided a Shark Constructor which would invoke super Fish constructor with large and grey value.Tested in SharkTest
+
+    b. Clownfish are small and colourful (orange)
+    Provided a ClownFIsh Constructor which would invoke super Fish constructor with small and orange value.Tested in ClownFishTest
+
+    c. Clownfish make jokes
+    Provided a makeJokes method and Tested in ClownFishTest.
+
+    d. Sharks eat other fish
+    Provided a eatFish method which take a Fish parameter.Tested in SharkTest
+
+
 
 
 
