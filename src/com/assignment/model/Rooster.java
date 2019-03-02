@@ -1,6 +1,6 @@
 package com.assignment.model;
 
-public class Rooster implements Singable {
+public class Rooster extends Chicken implements Singable {
 
     @Override
     public String sing() {

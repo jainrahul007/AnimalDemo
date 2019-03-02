@@ -3,7 +3,7 @@ package com.assignment.model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class BirdTest {
 
@@ -12,11 +12,6 @@ class BirdTest {
     @BeforeEach
     void setUp() {
         bird = new Bird();
-    }
-
-    @Test
-    void fly() {
-        assertEquals("I am flying", bird.fly());
     }
 
     @Test

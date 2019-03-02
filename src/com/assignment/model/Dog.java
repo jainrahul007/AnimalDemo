@@ -1,6 +1,6 @@
 package com.assignment.model;
 
-public class Dog implements Singable {
+public class Dog implements Animal,Singable {
     @Override
     public String sing() {
         String singing = "Woof, woof";

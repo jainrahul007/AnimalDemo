@@ -1,14 +1,6 @@
 package com.assignment.model;
 
-public class Bird implements Animal, Walkable, Flyable, Singable{
-
-    @Override
-    public String fly()
-    {
-        String flying = "I am flying";
-        System.out.println(flying);
-        return flying;
-    }
+public class Bird implements Animal, Walkable, Singable{
 
     @Override
     public String sing()

@@ -2,6 +2,9 @@ package com.assignment.model;
 
 public class Shark extends Fish {
 
+    public Shark(){
+
+    }
     public Shark(String size, String color)
     {
         super(size,color);

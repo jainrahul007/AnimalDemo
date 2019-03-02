@@ -2,6 +2,7 @@ package com.assignment.model;
 
 public class ClownFish extends Fish{
 
+    public ClownFish(){}
     public ClownFish(String size, String color) {
         super(size, color);
     }

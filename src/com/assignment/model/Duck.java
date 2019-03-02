@@ -1,6 +1,6 @@
 package com.assignment.model;
 
-public class Duck implements Singable, Swimable{
+public class Duck extends Bird implements Singable, Swimable{
 
     @Override
     public String sing()
