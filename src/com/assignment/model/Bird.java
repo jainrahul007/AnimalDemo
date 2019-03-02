@@ -1,6 +1,8 @@
 package com.assignment.model;
 
-public class Bird implements Animal{
+public class Bird implements Animal, Flyable, Singable{
+
+    @Override
     public String fly()
     {
         String flying = "I am flying";
@@ -8,6 +10,7 @@ public class Bird implements Animal{
         return flying;
     }
 
+    @Override
     public String sing()
     {
         String singing = "I am singing";
