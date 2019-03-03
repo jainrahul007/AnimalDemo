@@ -1,8 +1,6 @@
 package com.assignment.rest;
 
 import com.assignment.model.*;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,6 +33,7 @@ public class AnimalController {
                 .filter((x) -> x instanceof Flyable)
                 .map((x) -> x.getClass().getSimpleName())
                 .collect(Collectors.toList());
+
         return flyingAnimals;
     }
 
@@ -47,9 +46,6 @@ public class AnimalController {
                 .map((x) -> x.getClass().getSimpleName())
                 .collect(Collectors.toList());
 
-
-        System.out.println("List contains...");
-        System.out.println(walkingAnimals.size() + " of these animals can walk " + walkingAnimals);
         return walkingAnimals;
     }
 
@@ -62,8 +58,6 @@ public class AnimalController {
                 .map((x) -> x.getClass().getSimpleName())
                 .collect(Collectors.toList());
 
-        System.out.println("List contains...");
-        System.out.println(singingAnimals.size() + " of these animals can sing " + singingAnimals);
         return singingAnimals;
     }
 
@@ -76,17 +70,6 @@ public class AnimalController {
                 .map((x) -> x.getClass().getSimpleName())
                 .collect(Collectors.toList());
 
-        System.out.println("List contains...");
-        System.out.println(swimingAnimals.size() + " of these animals can swim " + swimingAnimals);
         return swimingAnimals;
     }
-
-    @SpringBootApplication
-    public static class Application {
-
-        public static void main(String[] args) {
-            SpringApplication.run(Application.class, args);
-        }
-    }
 }
-
