@@ -160,7 +160,8 @@ If you still have time left, please consider the following:
 
 
 2. Can you design a RESTful API for querying these animals?
-
+ Created a SpringBootApplication and provided RestController to 
+ create 4 rest endpoint to query these Animals.
 
 
 
